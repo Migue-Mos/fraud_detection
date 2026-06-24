@@ -14,7 +14,7 @@ To reproduce the results, download the dataset from Kaggle and place it in the `
 - Target variable: `Class` (0 = Not fraud, 1 = Fraud)
 
 ## Project Structure
-
+```text
 fraud_detection/
 ├── data/             # Original and cleaned dataset for testing
 ├── src/              # Source code: loading, preprocessing, modeling, evaluation
@@ -24,7 +24,7 @@ fraud_detection/
 ├── main.py           # Main script to run the full pipeline
 ├── README.md         # This file
 ├── requirements.txt  # Project dependencies
-
+```
 ## Data Preprocessing
 - Drop missing values  
 - Scale numeric features (StandardScaler)  
